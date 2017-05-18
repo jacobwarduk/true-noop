@@ -6,10 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwarduk/true-noop.git"
+  },
   "keywords": [
     "noop",
-    "no-op"
+    "no-op",
+    "no function"
   ],
   "author": "Jacob Ward",
-  "license": "ISC"
+  "email": "jacob@riino.co.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwarduk/true-noop/issues"
+  },
+  "homepage": "https://github.com/jacobwarduk/true-noop#readme"
 }

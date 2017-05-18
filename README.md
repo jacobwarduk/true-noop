@@ -1,24 +1,24 @@
 # true-noop
 
-The only _real_ 'no operation' module out there.
+The only _true_ 'no operation' module out there.
 
 **Installation**
 ```javascript
-npm install --save real-noop
+npm install --save true-noop
 ```
 
 **Usage**
 ```javascript
-let noop = require('real-noop');
+let noop = require('true-noop');
 
 noop();
 ```
 
-**Why is this a _real_ 'no operation' function**
-Because most other implementations _do_ actually perform an operation.
+**What makes this a _true_ 'no operation' function?**
+Because most other implementations _do_ actually perform an operation - the execution and return of the function.
 
 `module.exports = function() {}`
 
 `module.exports = () => () => {};`
 
-The only _real_ 'no-op' is `Function.prorotype`.
+The only _real_ 'no-op' is `Function.prototype`.

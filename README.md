@@ -14,7 +14,10 @@ let noop = require('true-noop');
 noop();
 ```
 
+---
+
 **What makes this a _true_ 'no operation' function?**
+
 Because most other implementations _do_ actually perform an operation - the execution and return of the function.
 
 `module.exports = function() {}`

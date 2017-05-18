@@ -21,4 +21,4 @@ Because most other implementations _do_ actually perform an operation - the exec
 
 `module.exports = () => () => {};`
 
-The only _real_ 'no-op' is `Function.prototype`.
+The only _true_ 'no-op' is `Function.prototype`.

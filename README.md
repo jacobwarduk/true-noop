@@ -18,10 +18,10 @@ noop();
 
 **What makes this a _true_ 'no operation' function?**
 
-Because most other implementations _do_ actually perform an operation - the execution and return of the function.
+Nothing other than the fact that `Function.prototype` is in itself a function that does nothing and returns `undefined`.
 
 `module.exports = function() {}`
 
 `module.exports = () => () => {};`
 
-The only _true_ 'no-op' is `Function.prototype`.
+`module.exports = Function.prototype`

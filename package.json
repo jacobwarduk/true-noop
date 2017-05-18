@@ -1,6 +1,6 @@
 {
   "name": "true-noop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module that actually returns a real no-op function",
   "main": "index.js",
   "scripts": {

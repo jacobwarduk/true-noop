@@ -18,7 +18,7 @@ noop();
 
 **What makes this a _true_ 'no operation' function?**
 
-While other 'no-op' modules actually go ahead and create and return a new function, e.g.
+While other 'no-op' modules actually go ahead and create then return a new function, e.g.
 
 `module.exports = function() {}`
 

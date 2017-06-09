@@ -4,7 +4,7 @@
   "description": "A module that actually returns a real no-op function",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ./node_modules/jasmine-node/bin/jasmine-node --color --verbose --noStack spec && exit 0"
+    "test": "xo && jasmine && exit 0"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/jacobwarduk/true-noop#readme",
   "devDependencies": {
-    "jasmine-core": "^2.6.2",
-    "jasmine-node": "^1.14.5",
+    "jasmine": "^2.6.0",
     "xo": "^0.18.2"
   }
 }

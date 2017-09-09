@@ -4,7 +4,8 @@
   "description": "A module that actually returns a real no-op function",
   "main": "index.js",
   "scripts": {
-    "test": "xo && jasmine && exit 0"
+    "test": "xo && jasmine && exit 0",
+    "cover": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",

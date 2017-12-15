@@ -5,7 +5,7 @@
 The only _true_ 'no operation' module out there.
 
 **Installation**
-```javascript
+```
 npm install --save true-noop
 ```
 
